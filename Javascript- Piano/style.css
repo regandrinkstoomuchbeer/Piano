@@ -1,0 +1,98 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#piano {
+
+    height: 290px;
+    padding: 90px 30px 0px 30px;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+
+.keys {
+    position: relative;
+}
+
+.white-keys {
+
+    display: flex;
+}
+
+.black-keys {
+
+    position: relative;
+    display: flex;
+}
+
+.key-white {
+
+    width: 80px;
+    height: 250px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    border: solid black 2px;
+
+}
+
+.key-black {
+    width: 35px;
+    height: 160px;
+    border-radius: 0px 0px 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: black; 
+    left: 78px; 
+}
+
+
+.key-black:nth-child(1) {
+
+    left: 162px;
+}
+
+.key-black:nth-child(2) {
+
+    left: 253px;
+}
+
+.key-black:nth-child(3) {
+
+    left: 420px;
+}
+
+.key-black:nth-child(4) {
+
+    left: 500px;
+}
+
+.key-black:nth-child(5) {
+
+    left: 575px;
+}
+
+.key-black:nth-child(6) {
+
+    left: 752px;
+}
+
+.key-black:nth-child(7) {
+
+    left: 820px;
+}
+
+.key-black:nth-child(8) {
+
+    left: 898px;
+}
+
+.key-black:nth-child(9) {
+
+    left: 900px;
+}
